@@ -1,0 +1,31 @@
+const mirrorName = "Jordyn's Smart Mirror";
+
+
+const mirrorData = {
+
+time: "9:32 AM",
+temperature: 89,
+day: "Thursday",
+date: "Sept 3, 2026", 
+ weather: {
+temp: 89,
+condition: "sunny",
+humidity: 41}
+};
+  
+
+function displayMirror(data){
+console.log("******************************");
+console.log(mirrorName);
+console.log("******************************");
+console.log("Good Morning!");
+console.log(`Time: ${data.time}`);
+console.log(`Today is ${data.day}, ${data.date}`);
+
+console.log(`Weather: ${data.weather.temp}°F - ${data.weather.condition}`);
+console.log(`Humidity: ${mirrorData.weather.humidity}%`);
+}
+
+displayMirror(mirrorData);
+
+
