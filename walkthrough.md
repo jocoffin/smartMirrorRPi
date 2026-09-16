@@ -1,6 +1,6 @@
-### smartMirror RPi - raspberry pi smart mirror display
+## smartMirror RPi - raspberry pi smart mirror display
 
-# phase 1 
+# phase 1 : install software
 Downloaded v24.20 (LTS) for arm64 MAC using nvm including npm.
 Install node.js from nvm: ‘run nvm install –lts’
 Ensure using LTS: ‘nvm use –lts’
@@ -16,7 +16,7 @@ mirror.js ( will become magicmirror javascript)
     ▼
 Terminal output ( will become RPi )
 
-# in terminal
+## in terminal
 Create mirror directory ‘mkdir smart-mirror’
 Change directory: ‘cd smart-mirror’
 Check loci: ‘pwd’
@@ -58,7 +58,7 @@ JSON - a structured way to represent data. Java script open network
              Sunny
              Humidity 42%
 
-# in terminal
+## in terminal
     Cd to smart-mirror: “cd ~/smart-mirror
     Check where repository is “git rev-parse --show-toplevel
     Ensure it has its own folder for smart mirror
