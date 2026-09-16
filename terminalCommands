@@ -1,3 +1,4 @@
+
 cd ~/smart-mirror // open folder
 node mirror.js  // run script and output
 nano mirror.js  // edit file 
