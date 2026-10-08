@@ -1,0 +1,6 @@
+Magic Mirror directory
+
+cd ~/MagicMirror/modules
+mkdir MMM-SmartMirror
+cd MMM-SmartMirror
+nano MMM-SmartMirror.js
