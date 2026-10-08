@@ -4,7 +4,7 @@ start: function () { Log.info("Starting MMM-SmartMirror"); this.updateTime(); se
 
 updateTime: function () { this.updateDom(); },
 
-getDom: function () { const wrapper = document.createElement("div"); wrapper.className = "jordyn-smart-mirror";
+getDom: function () { const wrapper = document.createElement("div"); wrapper.className = "smart-mirror";
 
 // Mirror name const title = document.createElement("div"); title.className = "mirror-name"; title.innerHTML = "Jordyn's Smart Mirror"; wrapper.appendChild(title);
 
