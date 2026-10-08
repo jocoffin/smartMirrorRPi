@@ -1,1 +1,31 @@
+https://openweathermap.org/weather-conditions
+MMM - onecallweather 
+cd ~/MagicMirror/modules
+git clone https://github.com/MagicMirrorModules/MMM-OneCallWeather
+    {
+      module: "MMM-OneCallWeather",
+      position: "top_right",
+      header: "Weather in London",
+      config: {
+        apikey: "YOUR_API_KEY", // openweathermap.org API key
+        iconset: "9a",          // Icon set to use. 4a 8a 8b or 9a
+        iconsetFormat: "svg",   // File format of the icons.
+        units: "imperial",
+        showHumidity: true,
+        maxDailiesToShow: 3,
+        showDescription: true
+        
+      }
+    },
+
+// install mmm-calendarExt2
+cd ~/MagicMirror/modules
+git clone https://github.com/MagicMirrorModules/MMM-CalendarExt2 --depth=1
+cd MMM-CalendarExt2
+npm ci --omit=dev
+
+//update
+cd ~/MagicMirror/modules/MMM-CalendarExt2
+git pull
+npm ci --omit=dev
 
