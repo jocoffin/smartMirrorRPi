@@ -1,0 +1,18 @@
+* 1.download node.js
+
+* 2. install git
+
+* 3. install APIS
+** OneCallWeather
+  cd ~/MagicMirror/modules
+  git clone https://github.com/MagicMirrorModules/MMM-OneCallWeather
+  
+** CalendarExt2 - using apple calendar
+
+cd ~/MagicMirror/modules
+
+git clone https://github.com/MagicMirrorModules/MMM-CalendarExt2 --depth=1
+
+cd MMM-CalendarExt2
+
+npm ci --omit=dev
