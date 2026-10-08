@@ -1,6 +1,6 @@
-Module.register("MMM-JordynSmartMirror", { defaults: { greeting: "Good Morning!" },
+Module.register("MMM-SmartMirror", { defaults: { greeting: "Good Morning!" },
 
-start: function () { Log.info("Starting MMM-JordynSmartMirror"); this.updateTime(); setInterval(() => { this.updateTime(); }, 1000); },
+start: function () { Log.info("Starting MMM-SmartMirror"); this.updateTime(); setInterval(() => { this.updateTime(); }, 1000); },
 
 updateTime: function () { this.updateDom(); },
 
